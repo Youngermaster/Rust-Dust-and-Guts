@@ -1,0 +1,1 @@
+sudo apt-get install libgtk-3-dev libgtk-3-0 -y
