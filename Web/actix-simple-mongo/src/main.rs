@@ -1,7 +1,7 @@
 use actix_web::{web, App, HttpResponse, HttpServer, Responder};
 use dotenv::dotenv;
 use mongodb::{
-    bson::{doc, Document},
+    bson::doc,
     options::ClientOptions,
     Client,
 };

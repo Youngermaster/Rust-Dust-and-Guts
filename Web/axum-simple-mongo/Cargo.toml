@@ -1,0 +1,17 @@
+[package]
+name = "axum-simple-mongo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6.12"
+bson = "2.1"
+dotenv = "0.15"
+futures = "0.3"
+log = "0.4"
+mongodb = "2.0"
+tokio = { version = "1", features = ["full"] }
+uuid = "0.8"
+
+[dependencies.async-trait]
+version = "0.1.68"
